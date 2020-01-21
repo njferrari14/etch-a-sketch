@@ -1,8 +1,18 @@
 /* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
-
+html {
+    text-align: center;;
+}
+h1 {
+    margin: 20px auto;
+}
 #container {
-    max-width: 400px;
+    height: 400px;
+    width: 400px;
     margin: 0 auto;
+    border: 1px solid grey;
+}
+#btnContainer {
+    text-align: center;
 }
 
 .row {
@@ -19,9 +29,9 @@
 }
 
 .block {
-    height: 12.5px;
-    -ms-flex-preferred-size: 3.125%;
-        flex-basis: 3.125%;
+    height: 100%;
+    /* -ms-flex-preferred-size: 3.125%;
+        flex-basis: 3.125%; */
     -ms-flex: auto;
     position: relative;
     -webkit-box-sizing: border-box;
