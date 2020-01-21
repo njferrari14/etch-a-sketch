@@ -1,4 +1,3 @@
-<!doctype html>
 <html>
 <head>
     <title>My JS Etch-a-sketch</title>
