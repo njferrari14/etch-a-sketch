@@ -59,7 +59,7 @@ function setRandom() {
 
 function pickColor() {
     isRandom = false;
-    color = prompt('Enter a color. Examples: "green" "blue" "#FF5733');
+    color = prompt('Enter a color. Examples: "green" "blue" "#FF5733"');
     clearBoard();
 }
 
